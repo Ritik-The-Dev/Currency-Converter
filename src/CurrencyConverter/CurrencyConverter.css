@@ -1,0 +1,81 @@
+#fc1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+#Input{
+    height: 4rem;
+    border-radius: 20px;
+    font-size: 2rem;
+    padding-left: 27px;
+    margin: 10px;}
+  #Select{
+    min-width: 8%;
+    height: 4rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 23px;
+    width: 21%;    
+}
+  .div1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bgd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+#try09{
+    width: 14rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    background: white;
+    color: black;
+    cursor: pointer;
+    margin: 0rem 2rem;
+}
+#arrow{
+    height: 9rem;
+}
+@media screen and (max-width:480px) {
+    #fc1 {
+        font-size: 2rem;}
+        #try09 {
+            width: 9rem;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        #Input{
+            width: 60%;
+        }
+        #Select{
+            width: 7rem;
+        }
+}
+@media screen and (min-width:481px) and (max-width:620px) {
+    #fc1 {
+        font-size: 3rem;}
+        #try09 {
+            width: 12rem;}
+            #Input{
+                width: 70%;
+            }
+            #Select{
+                width: 7rem;
+            }
+
+}
