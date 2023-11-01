@@ -26,7 +26,6 @@ const CurrencyConverter = () => {
 
     function handleAmount1Change(amount1){
         Setamount2(format(amount1 * rates[currency2]/rates[currency1]));
-        console.log(`Currency 1 = ${rates[currency1]} Currency 2 = ${rates[currency2]}`)
         Setamount1(amount1);
     }
     function handleAmount2Change(amount2){
